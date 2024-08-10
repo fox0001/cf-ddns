@@ -42,6 +42,8 @@ function log() {
 
 function show_help() {
   cat 1>&2 <<EOF
+A bash script for binding domain name and IP on Cloudflare DNS.
+
 Usage: ${FILE_NAME} [options...]
   -n <domain>  Domain to set IP
   -k <key>     Cloudflare key
