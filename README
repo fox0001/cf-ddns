@@ -1,0 +1,11 @@
+cf-ddns
+
+A bash script for binding domain name and IP on Cloudflare.
+
+Usage: cf-ddns.sh [options...]
+  -n <domain>  Domain to set IP
+  -k <key>     Cloudflare key
+  -d           Enable debug mode
+  -h           Show this help info  
+
+
