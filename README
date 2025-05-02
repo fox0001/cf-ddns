@@ -1,11 +1,12 @@
 cf-ddns
 
-A bash script for binding domain name and IP on Cloudflare DNS.
+A bash/ash script for binding domain name and IP on Cloudflare DNS.
+
+- Binding current WAN IP to Cloudflare DNS
+- Compatible with Bash and BusyBox
 
 Usage: cf-ddns.sh [options...]
-  -n <domain>  Domain to set IP
-  -k <key>     Cloudflare key
-  -d           Enable debug mode
-  -h           Show this help info  
-
+  -p <parms> Params, format: DOMAIN=xxx,CF_KEY=xxx,CF_ZONE_ID=xxx,CF_RECORD_ID=xxx
+  -d         Enable debug mode
+  -h         Show this help info
 
